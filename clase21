@@ -1,0 +1,19 @@
+git config --global color.ui auto
+
+class Termometro: 
+  def __init__ (self, celsius):
+    self ._celsius
+
+@celsius.setter
+def celsius (self, valor):
+  if valor < 273.15:
+    raise ValueError ("El valor no puede ser menor a -273.15C°")
+  self ._celsius = valor
+
+@property
+def fahrenhait (self):
+  return (self._celsius * 9/5) + 32
+t = Termometro (36)
+print (t.fahrenhait)
+f = 9/5 C° + 32
+
